@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+      button{width: 100px;
+          height: 20px;}
+        body{
+            background-color: green;}
+        div{width: 500px;
+           margin: 100px auto;}
+    </style>
+</head>
+<body>
+     <button id="btn1">撕碎他</button>
+     <button id="btn2">合起来</button>
+     <div>
+         <img src="imgs/shield_1_01.png" alt=""/>
+         <img src="imgs/shield_1_02.png" alt=""/>
+         <img src="imgs/shield_1_03.png" alt=""/>
+         <img src="imgs/shield_1_04.png" alt=""/>
+         <img src="imgs/shield_1_05.png" alt=""/>
+         <img src="imgs/shield_1_06.png" alt=""/>
+         <img src="imgs/shield_1_07.png" alt=""/>
+         <img src="imgs/shield_1_08.png" alt=""/>
+         <img src="imgs/shield_1_09.png" alt=""/>
+
+
+     </div>
+
+     <script>
+         var btn1=document.getElementById("btn1");
+         var btn2=document.getElementById("btn2");
+         var imgs=document.getElementsByTagName("img");
+        btn1.onclick=function(){
+
+            for(i=0;i<imgs.length;i++){
+                var x=Math.random()*800-400;
+                var y=Math.random()*600-300;
+                var Deg=Math.random()*360;
+                imgs[i].style.transform="translate("+x+"px,"+y+"px) rotate("+Deg+"deg)";
+            }
+        }
+         btn2.onclick=function(){
+             for(i=0;i<imgs.length;i++){  imgs[i].style.transform="";}
+
+         };
+
+     </script>
+
+
+</body>
+</html>

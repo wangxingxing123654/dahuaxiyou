@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 100px auto;
+            position: relative;
+
+        }
+        .box>div{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform-origin: 0 0;
+            transition: transform 2s}
+
+
+        body:hover  .container:nth-child(1){
+            transform: rotate(60deg);
+        }
+        body:hover .container:nth-child(2){
+            transform: rotate(120deg);
+        }
+        body:hover .container:nth-child(3){
+            transform: rotate(180deg);
+        }
+        body:hover  .container:nth-child(4){
+            transform: rotate(240deg);
+        }
+        body:hover  .container:nth-child(5){
+            transform: rotate(300deg);
+        }
+        body:hover .container:nth-child(6){
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+       <div class="box">
+           <div class="container">
+               <img src="21.png" alt=""/>
+           </div>
+           <div class="container">
+               <img src="21.png" alt=""/>
+           </div>
+           <div class="container">
+               <img src="21.png" alt=""/>
+           </div>
+           <div class="container">
+               <img src="21.png" alt=""/>
+           </div>
+           <div class="container">
+               <img src="21.png" alt=""/>
+           </div>
+           <div class="container">
+               <img src="21.png" alt=""/>
+           </div>
+
+       </div>
+</body>
+</html>

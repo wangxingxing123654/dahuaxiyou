@@ -1,0 +1,284 @@
+/*上图*/
+.zmq_bg1 {
+    background: url("images/bg1_d47c94a.jpg");
+    height: 1341px;
+}
+.logo {
+    position: absolute;
+    top: 23px;
+    left: 0;
+}
+.zc {
+    position: absolute;
+    top: 1032px;
+    height: 380px;
+    width: 221px;
+    z-index: 999;
+}
+.zck_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.loaddown {
+    position: absolute;
+    top: 1032px;
+    left: 444px;
+    height: 380px;
+    width: 221px;
+}
+.libao {
+    position: absolute;
+    top: 1064px;
+    left: 894px;
+    height: 380px;
+    width: 221px;
+}
+.lbk_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#zc {
+    background: url("images/ljzc_d8f4a10.jpg");
+    height: 51px;
+    width: 261px;
+}
+#zc:hover {
+    background: url("images/ljzc_h_7d3a04c.jpg");
+}
+#loaddown {
+    background: url("images/dialog_btn1_40be2f2.jpg");
+    height: 51px;
+    width: 261px;
+}
+#loaddown:hover {
+    background: url("images/dialog_btn1_h_9842e58.jpg");
+}
+#libao {
+    background: url("images/page_z_e616259.png") no-repeat -143px -721px;
+    height: 51px;
+    width: 261px;
+}
+#libao:hover {
+    background: url("images/page_z_e616259.png") no-repeat -596px -639px;
+}
+#zck {
+    height: 459px;
+    width: 705px;
+    background: url("images/zc_bg_ed00f97.png");
+    position: absolute;
+    top: 912px;
+    left: 240px;
+    display: none;
+    z-index: 9999;
+}
+#lbk {
+    width: 773px;
+    height: 600px;
+    background: url("images/dialog_bg1_sm_3661e97.png");
+    position: absolute;
+    top: 768px;
+    left: 225px;
+    display: none;
+    z-index: 9999;
+}
+#ldk {
+    height: 64px;
+    width: 64px;
+    background: url("images/play3_b92c9e8.png");
+    position: absolute;
+    top: 1010px;
+    left: 46%;
+    display: none;
+    z-index: 9999;
+    animation: rotate_complete 4s linear 0s infinite;
+}
+@keyframes rotate_complete{
+    0%{
+        transform:rotate(0deg)
+    }100%{
+         transform:rotate(360deg)}
+}
+
+
+
+/*下图*/
+.zmq_bg2 {
+    background: url("images/bg2_cb98320.jpg");
+    height: 2361px;
+}
+.lunbotu01 {
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    height: 360px;
+}
+.lunbotu01 ul{
+    width: 7200px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    left:0px;
+}
+.lunbotu01 ul li {
+    float: left;
+    width: 1200px;
+}
+#div01 {
+    position: absolute;
+    top: 347px;
+    left:364px;
+}
+#div01 ul li {
+    float: left;
+    margin-right: 10px;
+    height: 60px;
+    width: 105px;
+}
+.diao {
+    height: 52px;
+    width: 97px;
+    border: 4px solid #f3ac21;
+}
+.qidazhiye {
+    height: 33px;
+    width: 621px;
+    position: absolute;
+    top: 620px;
+    left: 25%;
+    background: url("images/t3_6083cdb.png");
+}
+.lunbotu02 {
+    width: 1120px;
+    position: absolute;
+    top: 700px;
+    left: 38px;
+}
+.lastdw {
+    position: absolute;
+    top:-110px;
+}
+.secdw {
+    position: absolute;
+    top:-19px;
+}
+.dw {
+    display: block;
+}
+.li1 {
+    display: none;
+}
+.dw2 {
+    display: none;
+}
+.small {
+    position: absolute;
+    width: 195px;
+    height: 110px;
+    top: 270px;
+    right: -195px;
+}
+.small ul li {
+    position: absolute;
+    top: 0;
+}
+.left {
+    background: url("images/jiantou2_b375060.png") no-repeat -52px -23px;
+    position: absolute;
+    top: 151px;
+    left:0;
+    height: 50px;
+    width: 50px;
+    opacity: 0.2;
+}
+.right {
+    background: url("images/jiantou2_b375060.png") no-repeat -47px -113px;
+    position: absolute;
+    top:151px;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    opacity: 0.2;
+}
+.special {
+    width:1014px;
+    height: 592px;
+    position: absolute;
+    top: 168px;
+    left: -980px;
+    opacity: 0.5;
+    z-index: 99999;
+}
+.smallspecial {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 48%;
+    right: 3px;
+    opacity: 1;
+}
+.fixed {
+    position: fixed;
+    top: 100px;
+}
+.joblogo {
+    background-image: url(images/page_z_e616259.png);
+    width: 143px;
+    height: 285px;
+    position: absolute;
+    top: 30px;
+    right: 146px;
+    opacity: 0;
+}
+.joblogo1 {
+    background-position: -923px -285px;
+}
+.joblogo2 {
+    background-position: 1px -640px;
+}
+.joblogo3 {
+    background-position: -390px -320px;
+}
+.joblogo4 {
+    background-position: -923px 0px;
+}
+.joblogo5 {
+    background-position: -533px -320px;
+}
+.joblogo6 {
+    background-position: -780px -285px;
+}
+.joblogo7 {
+    background-position: -780px 0px;
+}
+.sptubiao {
+    background: url("images/play1_cfd05f2.png");
+    position: absolute;
+    height: 62px;
+    width: 62px;
+    top: 43px;
+    left: 78px;
+    display: none;
+}
+#spcar {
+    height: 143px;
+    width: 1110px;
+    position: absolute;
+    top: 1400px;
+    left: 50px;
+}
+#spcar li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.bottom {
+    background: url("images/20170717110836964.jpg");
+    position: absolute;
+    bottom: -1800px;
+    right: 50px;
+    width: 1000px;
+    height: 300px;
+}

@@ -1,0 +1,187 @@
+/*css 初始化 */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    /*在低版本的ie浏览器里面不支持*/
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+/*禁止手动修改大小*/
+textarea {
+    resize: none;
+}
+/*去掉图片底部默认空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/*合并外连线*/
+table {
+    /*表格的单元格边框默认是不会重合的，这个属性可以让表格的边框重合在一起，看起来更加细一些*/
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*unitedCode的写法，宋体的写法*/
+    color: #666;
+    background: #fff;
+}
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/*公共类*/
+.w {
+    /*版心*/
+    width: 998px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+.pr {
+    position: relative;
+}
+.pa {
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+.col-red {
+    color: #F10215 !important;
+}
+
+/*css初始化完成*/
+
+/*在css使用这个方法生命一个新的字体*/
+@font-face {
+    /*以前都是用这个属性去设置字体，现在在@font-face里，是声明*/
+    font-family: 'myicon';      /*此时，字体的名称可以自己写，但是要符合css的命名规范*/
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+/*字体图标：*/
+/*第一步：*/
+/*把@font-face复制过来，修改字体文件的路径*/
+
+.myicon11{
+    font-family:"myicon" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*第二步：*/
+/*使用iconfont声明一个class,同时保证字体的使用和刚才的声明一致*/
+/*第三部：在页面中使用对应的编码来控制字体的样式*/

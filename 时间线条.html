@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            margin: 0px auto;
+            width: 0px;
+            height: 1px;
+            background-color: cyan;
+        transition:all .5s;
+       }
+        body{
+            background-color: gray;
+        padding-top: 100px}
+        html,body{width: 100%;
+            height: 100%;}
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*line-height: 200px;*/
+            /*text-align: center;*/
+            /*font-size: 40px;*/
+            /*background-color: cyan;*/
+
+            /*color: black;}*/
+        body:hover div{
+             width: 1000px;
+            transform: rotateZ(3600deg);
+            scale(8);
+            height: 8px;
+
+        }
+        div:nth-child(2){
+            margin: 300px;
+        }
+        div:nth-child(3){
+            margin: 500px;
+        }
+    </style>
+</head>
+<body>
+            <div></div>
+            <div></div>
+            <div></div>
+</body>
+</html>
